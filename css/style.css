@@ -6,7 +6,7 @@
 h1 {
 	text-align: center;
 	color: blue;
-	font-size: 75%;
+/* 	font-size: 75%; */
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 .sm-beef > h2 {
 		background-color: blue;
 		text-align: center;
-	        font-size: 25%;
+/* 	        font-size: 25%; */
 		float: right;
 		width: 100px;
 		position: relative;
