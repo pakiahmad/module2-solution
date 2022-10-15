@@ -1,1 +1,177 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+p {
+	text-align: left;
+}
+
+/*mobile version*/
+
+.sm-beef {
+	background-color: greenyellow;
+		border: solid red 2px;
+		padding: 5px;
+}
+.sm-beef > h2 {
+		background-color: blue;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.sm-beef > p {
+		padding-top: 10px;
+	}
+
+.sm-curry {
+	background-color: blueviolet;
+		border: solid green 2px;
+	}
+	.sm-curry > h2 {
+		background-color: yellow;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.sm-curry > p {
+		padding-top: 10px;
+	}
+	.sm-biryani {
+		background-color: seagreen;
+		border: solid yellow 2px;
+	}
+	.sm-biryani > h2 {
+		background-color: white;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.sm-biryani > p {
+		padding-top: 10px;
+	}
+
+/*desktop version*/
+
+@media (min-width: 992px) {
+	.lg-beef, .lg-curry, .lg-biryani {
+		float: left;
+		padding: 5px;
+	}
+	.lg-beef {
+		width: 33.33%;
+		background-color: greenyellow;
+		border: solid red 2px;
+	}
+	.lg-beef > h2 {
+		background-color: blue;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.lg-beef > p {
+		padding-top: 10px;
+	}
+	.lg-curry {
+		width: 33.33%;
+		background-color: blueviolet;
+		border: solid green 2px;
+	}
+	.lg-curry > h2 {
+		background-color: yellow;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.lg-curry > p {
+		padding-top: 10px;
+	}
+	.lg-biryani {
+		width: 33.33%;
+		background-color: seagreen;
+		border: solid yellow 2px;
+	}
+	.lg-biryani > h2 {
+		background-color: white;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.lg-biryani > p {
+		padding-top: 10px;
+	}
+}
+
+/*tablet version*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+.md-beef, .md-curry, .md-biryani {
+		float: left;
+		padding: 5px;
+	}
+	.md-beef {
+		width: 50%;
+		background-color: greenyellow;
+		border: solid red 2px;
+	}
+	.md-beef > h2 {
+		background-color: blue;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.md-beef > p {
+		padding-top: 10px;
+	}
+	.md-curry {
+		width: 50%;
+		background-color: blueviolet;
+		border: solid green 2px;
+	}
+	.md-curry > h2 {
+		background-color: yellow;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.md-curry > p {
+		padding-top: 10px;
+	}
+	.md-biryani {
+		background-color: seagreen;
+		border: solid yellow 2px;
+	}
+	.lg-biryani > h2 {
+		background-color: white;
+		text-align: center;
+		float: right;
+		width: 100px;
+		position: relative;
+		margin-top: 0;
+	}
+	.lg-biryani > p {
+		padding-top: 10px;
+	}
+}
 
